@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Moja stranica</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Početna</a></li>
+        <li><a href="#">O nama</a></li>
+        <li><a href="#">Usluge</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h1>Dobrodošli na moju stranicu!</h1>
+    <p>Ovdje možete pronaći razne informacije i korisne sadržaje.</p>
+  </main>
+  
+  <footer>
+    &copy; 2023 Moja stranica. Sva prava pridržana.
+  </footer>
+</body>
+</html>
