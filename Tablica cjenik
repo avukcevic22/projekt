@@ -31,13 +31,19 @@
       <th>Šišanje + Kupanje</th>
     </tr>
     <tr>
-      <td>Ispod 10kg</td>
+        <td>Ispod 5kg</td>
+        <td>10€</td>
+        <td>10€</td>
+        <td>15€</td>
+      </tr>
+    <tr>
+      <td>6-11kg</td>
       <td>15€</td>
       <td>10€</td>
       <td>20€</td>
     </tr>
     <tr>
-      <td>10-20kg</td>
+      <td>12-23kg</td>
       <td>20€</td>
       <td>15€</td>
       <td>25€</td>
