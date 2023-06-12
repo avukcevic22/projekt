@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cjenik za šišanje pasa</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cjenik za šišanje pasa</h1>
+  
+  <table>
+    <tr>
+      <th rowspan="2">Veličina psa</th>
+      <th colspan="3">Usluga</th>
+    </tr>
+    <tr>
+      <th>Šišanje</th>
+      <th>Kupanje</th>
+      <th>Šišanje + Kupanje</th>
+    </tr>
+    <tr>
+      <td>Ispod 10kg</td>
+      <td>15€</td>
+      <td>10€</td>
+      <td>20€</td>
+    </tr>
+    <tr>
+      <td>10-20kg</td>
+      <td>20€</td>
+      <td>15€</td>
+      <td>25€</td>
+    </tr>
+    <tr>
+      <td>Više od 20kg</td>
+      <td>25€</td>
+      <td>20€</td>
+      <td>30€</td>
+    </tr>
+  </table>
+</body>
+</html>
