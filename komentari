@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Moja stranica</title>
+  <style>
+    /* CSS stilovi */
+  </style>
+</head>
+<body>
+  <!-- Dio s komentarima kupaca -->
+  <div id="komentari">
+    <h2>Komentari kupaca</h2>
+    <ul>
+      <li>Odlična usluga! - Marko</li>
+      <li>Brza dostava i kvalitetni proizvodi. Preporučujem! - Ana</li>
+      <li>Imam samo riječi hvale za vašu tvrtku. - Ivan</li>
+      <li>Super proizvodi i izvrsna korisnička podrška! - Marta</li>
+      <li>Nikad nisam bio zadovoljniji kupovinom. Hvala vam! - Filip</li>
+      <li>Vaša usluga je nepobjediva. - Petra</li>
+      <li>Kvalitetan proizvod i brza isporuka. Svaka pohvala! - Ante</li>
+      <li>Preporučujem svima! - Mia</li>
+      <li>Usluga na najvišoj razini. - Tomislav</li>
+      <li>Nema bolje trgovine od vaše. - Jelena</li>
+    </ul>
+  </div>
+
+  <!-- Gumb za povezivanje s lokacijom -->
+  <button onclick="poveziLokaciju()">Poveži se s lokacijom</button>
+
+  <!-- Promjena teksta na gumbu za prijavu nakon ulogiranja -->
+  <button onclick="promijeniTekst()">Prijava</button>
+
+  <script>
+    // JavaScript funkcija za povezivanje s lokacijom
+    function poveziLokaciju() {
+      // Ovdje dodajte kod za povezivanje s određenom lokacijom
+    }
+
+    // JavaScript funkcija za promjenu teksta na gumbu nakon ulogiranja
+    function promijeniTekst() {
+      var gumb = document.querySelector("button");
+      gumb.textContent = "Account";
+      // Ovdje dodajte kod za promjenu funkcionalnosti nakon ulogiranja
+    }
+  </script>
+</body>
+</html>
 
