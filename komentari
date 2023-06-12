@@ -11,16 +11,46 @@
   <div id="komentari">
     <h2>Komentari kupaca</h2>
     <ul>
-      <li>Odlična usluga! - Marko</li>
-      <li>Brza dostava i kvalitetni proizvodi. Preporučujem! - Ana</li>
-      <li>Imam samo riječi hvale za vašu tvrtku. - Ivan</li>
-      <li>Super proizvodi i izvrsna korisnička podrška! - Marta</li>
-      <li>Nikad nisam bio zadovoljniji kupovinom. Hvala vam! - Filip</li>
-      <li>Vaša usluga je nepobjediva. - Petra</li>
-      <li>Kvalitetan proizvod i brza isporuka. Svaka pohvala! - Ante</li>
-      <li>Preporučujem svima! - Mia</li>
-      <li>Usluga na najvišoj razini. - Tomislav</li>
-      <li>Nema bolje trgovine od vaše. - Jelena</li>
+      <li>
+        <h3>Naslov komentara 1</h3>
+        <p>Kvalitetna usluga i brza dostava. Ocijena: 5/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 2</h3>
+        <p>Sjajna ponuda proizvoda i izvrsna korisnička podrška. Ocijena: 4/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 3</h3>
+        <p>Odličan proizvod, ali malo duže vrijeme dostave. Ocijena: 4/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 4</h3>
+        <p>Vrhunski kvalitet proizvoda i usluge. Ocijena: 5/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 5</h3>
+        <p>Imao sam odlično iskustvo s ovom tvrtkom. Ocijena: 5/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 6</h3>
+        <p>Kupovina je bila jednostavna i brza. Ocijena: 4/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 7</h3>
+        <p>Dobra usluga, ali proizvod je došao s malim oštećenjem. Ocijena: 3/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 8</h3>
+        <p>Vrlo ljubazno osoblje i kvalitetni proizvodi. Ocijena: 5/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 9</h3>
+        <p>Nisam mogao biti sretniji s mojom kupovinom. Ocijena: 5/5</p>
+      </li>
+      <li>
+        <h3>Naslov komentara 10</h3>
+        <p>Proizvod je odgovarao opisu i dostavljen na vrijeme. Ocijena: 4/5</p>
+      </li>
     </ul>
   </div>
 
@@ -45,4 +75,3 @@
   </script>
 </body>
 </html>
-
