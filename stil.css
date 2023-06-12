@@ -1,71 +1,155 @@
 /* Stilovi za mobilne uređaje */
 @media only screen and (max-width: 600px) {
-  /* Stilovi za header */
   header {
+    background-color: #ffddcc;
     padding: 10px;
   }
   
-  nav ul li {
-    display: block;
-    margin-bottom: 10px;
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
   
-  /* Stilovi za sadržaj */
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
   main {
     padding: 10px;
   }
   
-  /* Stilovi za footer */
   footer {
+    background-color: #ffddcc;
     padding: 5px;
     font-size: 12px;
+    color: black;
+
   }
 }
 
 /* Stilovi za tablete */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-  /* Stilovi za header */
   header {
+    background-color: #ffddcc;
     padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
   
   nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin-right: 10px;
   }
   
-  /* Stilovi za sadržaj */
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
   main {
     padding: 30px;
   }
   
-  /* Stilovi za footer */
   footer {
+    background-color: #ffddcc;
     padding: 10px;
     font-size: 14px;
+        color: black;
+
   }
 }
 
 /* Stilovi za normalne desktop zaslone */
 @media only screen and (min-width: 1025px) {
-  /* Stilovi za header */
-  header {
-    padding: 40px;
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  header, section, footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  /* CSS za navigacijski izbornik */
+  nav {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
   
   nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline-block;
+    margin-right: 10px;
   }
   
-  /* Stilovi za sadržaj */
-  main {
-    padding: 50px;
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
   }
   
-  /* Stilovi za footer */
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  nav ul li.active a {
+    background-color: #555;
+  }
+  
+  
+  header {
+    background-color: #ffddcc;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
   footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
     padding: 20px;
-    font-size: 16px;
+    margin-top: auto;
   }
+  
+
 }
