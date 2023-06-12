@@ -1,0 +1,71 @@
+/* Stilovi za mobilne uređaje */
+@media only screen and (max-width: 600px) {
+  /* Stilovi za header */
+  header {
+    padding: 10px;
+  }
+  
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Stilovi za sadržaj */
+  main {
+    padding: 10px;
+  }
+  
+  /* Stilovi za footer */
+  footer {
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+
+/* Stilovi za tablete */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Stilovi za header */
+  header {
+    padding: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  /* Stilovi za sadržaj */
+  main {
+    padding: 30px;
+  }
+  
+  /* Stilovi za footer */
+  footer {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+/* Stilovi za normalne desktop zaslone */
+@media only screen and (min-width: 1025px) {
+  /* Stilovi za header */
+  header {
+    padding: 40px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  /* Stilovi za sadržaj */
+  main {
+    padding: 50px;
+  }
+  
+  /* Stilovi za footer */
+  footer {
+    padding: 20px;
+    font-size: 16px;
+  }
+}
